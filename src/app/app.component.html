@@ -1,146 +1,118 @@
-<div class="grid-container">
-    <h1 class="mat-h1">Bewertung der Module</h1>
-    <mat-grid-list cols="2" rowHeight="150px">
-        <mat-grid-tile colspan="1" rowspan="1">
-            <p>
-                Die Unterlagen der selbstgesteuerten Lernmodule unterstützten Sie beim Erreichen Ihres Lernerfolgs.
-            </p>
-        </mat-grid-tile>
-        <mat-grid-tile colspan="1" rowspan="1">
-            <mat-button-toggle-group name="fontStyle" aria-label="Font Style">
-                <mat-button-toggle value="1">1</mat-button-toggle>
-                <mat-button-toggle value="2">2</mat-button-toggle>
-                <mat-button-toggle value="3">3</mat-button-toggle>
-                <mat-button-toggle value="4">4</mat-button-toggle>
-                <mat-button-toggle value="5">5</mat-button-toggle>
-                <mat-button-toggle value="6">6</mat-button-toggle>
-            </mat-button-toggle-group>
-        </mat-grid-tile>
-        <mat-grid-tile colspan="1" rowspan="1">
-            <p>
-                Die Übungen der Modulunterlagen waren verständlich und handlungsorientert.
-            </p>
+<mat-card class="rating-card">
+  <mat-card-title>
+    Bewertung des Moduls XYZ
+  </mat-card-title>
+  <mat-card-subtitle>
+      Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+      Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+    </mat-card-subtitle>
+  <mat-card-content>
+  <div class="rating-list">
+    <div class="rating-item">
 
-        </mat-grid-tile>
-        <mat-grid-tile colspan="1" rowspan="1">
+      Die Unterlagen der selbstgesteuerten Lernmodule unterstützten Sie beim Erreichen Ihres Lernerfolgs.
 
-            <mat-button-toggle-group name="fontStyle" aria-label="Font Style">
-                <mat-button-toggle value="1">1</mat-button-toggle>
-                <mat-button-toggle value="2">2</mat-button-toggle>
-                <mat-button-toggle value="3">3</mat-button-toggle>
-                <mat-button-toggle value="4">4</mat-button-toggle>
-                <mat-button-toggle value="5">5</mat-button-toggle>
-                <mat-button-toggle value="6">6</mat-button-toggle>
-            </mat-button-toggle-group>
+    </div>
+    <div class="rating">
+      <mat-button-toggle-group name="fontStyle" aria-label="Font Style">
+        <mat-button-toggle color="primary" value="1">1</mat-button-toggle>
+        <mat-button-toggle value="2">2</mat-button-toggle>
+        <mat-button-toggle value="3">3</mat-button-toggle>
+        <mat-button-toggle value="4">4</mat-button-toggle>
+        <mat-button-toggle value="5">5</mat-button-toggle>
+        <mat-button-toggle value="6">6</mat-button-toggle>
+      </mat-button-toggle-group>
+    </div>
+    <mat-divider [inset]="true"></mat-divider>
+    <div class="rating-item">
 
-        </mat-grid-tile>
-        <mat-grid-tile colspan="1" rowspan="1">
-            <p>
-                Die Standart- und Lernsoftware wurden themen- und inhaltsbezogen eingesetzt.
-            </p>
+      Die Übungen der Modulunterlagen waren verständlich und handlungsorientert.
 
-        </mat-grid-tile>
-        <mat-grid-tile colspan="1" rowspan="1">
-
-            <mat-button-toggle-group name="fontStyle" aria-label="Font Style">
-                <mat-button-toggle value="1">1</mat-button-toggle>
-                <mat-button-toggle value="2">2</mat-button-toggle>
-                <mat-button-toggle value="3">3</mat-button-toggle>
-                <mat-button-toggle value="4">4</mat-button-toggle>
-                <mat-button-toggle value="5">5</mat-button-toggle>
-                <mat-button-toggle value="6">6</mat-button-toggle>
-            </mat-button-toggle-group>
-
-        </mat-grid-tile>
-        <mat-grid-tile colspan="1" rowspan="1">
-            <p>
-                Die Unterstützung der Trainer war ergebnisorientiert.
-            </p>
-
-        </mat-grid-tile>
-        <mat-grid-tile colspan="1" rowspan="1">
-
-            <mat-button-toggle-group name="fontStyle" aria-label="Font Style">
-                <mat-button-toggle value="1">1</mat-button-toggle>
-                <mat-button-toggle value="2">2</mat-button-toggle>
-                <mat-button-toggle value="3">3</mat-button-toggle>
-                <mat-button-toggle value="4">4</mat-button-toggle>
-                <mat-button-toggle value="5">5</mat-button-toggle>
-                <mat-button-toggle value="6">6</mat-button-toggle>
-            </mat-button-toggle-group>
-
-        </mat-grid-tile>
-        <mat-grid-tile colspan="1" rowspan="1">
-            <p>
-                Die Konsultationen/Auswertungen der Trainer waren aufgaben- und situationsgerecht.
-            </p>
-
-        </mat-grid-tile>
-        <mat-grid-tile colspan="1" rowspan="1">
-
-            <mat-button-toggle-group name="fontStyle" aria-label="Font Style">
-                <mat-button-toggle value="1">1</mat-button-toggle>
-                <mat-button-toggle value="2">2</mat-button-toggle>
-                <mat-button-toggle value="3">3</mat-button-toggle>
-                <mat-button-toggle value="4">4</mat-button-toggle>
-                <mat-button-toggle value="5">5</mat-button-toggle>
-                <mat-button-toggle value="6">6</mat-button-toggle>
-            </mat-button-toggle-group>
-
-        </mat-grid-tile>
-        <mat-grid-tile colspan="1" rowspan="1">
-            <p>
-                Das Arbeitsklima war angenehm und leistungsfördernd beim eigenständigen Lernen.
-            </p>
-
-        </mat-grid-tile>
-        <mat-grid-tile colspan="1" rowspan="1">
-
-            <mat-button-toggle-group name="fontStyle" aria-label="Font Style">
-                <mat-button-toggle value="1">1</mat-button-toggle>
-                <mat-button-toggle value="2">2</mat-button-toggle>
-                <mat-button-toggle value="3">3</mat-button-toggle>
-                <mat-button-toggle value="4">4</mat-button-toggle>
-                <mat-button-toggle value="5">5</mat-button-toggle>
-                <mat-button-toggle value="6">6</mat-button-toggle>
-            </mat-button-toggle-group>
-
-        </mat-grid-tile>
-        <mat-grid-tile colspan="1" rowspan="1">
-            <p>
-                Die Ausstattung der Räume und die vorhandene Technik war gut.
-            </p>
-
-        </mat-grid-tile>
-        <mat-grid-tile colspan="1" rowspan="1">
-
-            <mat-button-toggle-group name="fontStyle" aria-label="Font Style">
-                <mat-button-toggle value="1">1</mat-button-toggle>
-                <mat-button-toggle value="2">2</mat-button-toggle>
-                <mat-button-toggle value="3">3</mat-button-toggle>
-                <mat-button-toggle value="4">4</mat-button-toggle>
-                <mat-button-toggle value="5">5</mat-button-toggle>
-                <mat-button-toggle value="6">6</mat-button-toggle>
-            </mat-button-toggle-group>
-
-        </mat-grid-tile>
-        <mat-grid-tile colspan="1" rowspan="1">
-            <p>
-                Gesamteindruck
-            </p>
-
-        </mat-grid-tile>
-        <mat-grid-tile colspan="1" rowspan="1">
-
-            <mat-button-toggle-group name="fontStyle" aria-label="Font Style">
-                <mat-button-toggle value="1">1</mat-button-toggle>
-                <mat-button-toggle value="2">2</mat-button-toggle>
-                <mat-button-toggle value="3">3</mat-button-toggle>
-                <mat-button-toggle value="4">4</mat-button-toggle>
-                <mat-button-toggle value="5">5</mat-button-toggle>
-                <mat-button-toggle value="6">6</mat-button-toggle>
-            </mat-button-toggle-group>
-
-        </mat-grid-tile>
-    </mat-grid-list>
-</div>
+    </div>
+    <div class="rating">
+      <mat-button-toggle-group name="fontStyle" aria-label="Font Style">
+        <mat-button-toggle color="primary" value="1">1</mat-button-toggle>
+        <mat-button-toggle value="2">2</mat-button-toggle>
+        <mat-button-toggle value="3">3</mat-button-toggle>
+        <mat-button-toggle value="4">4</mat-button-toggle>
+        <mat-button-toggle value="5">5</mat-button-toggle>
+        <mat-button-toggle value="6">6</mat-button-toggle>
+      </mat-button-toggle-group>
+    </div>
+    <mat-divider [inset]="true"></mat-divider>
+    <div class="rating-item">
+      Die Standart- und Lernsoftware wurden themen- und inhaltsbezogen eingesetzt.
+    </div>
+    <div class="rating">
+      <mat-button-toggle-group name="fontStyle" aria-label="Font Style">
+        <mat-button-toggle color="primary" value="1">1</mat-button-toggle>
+        <mat-button-toggle value="2">2</mat-button-toggle>
+        <mat-button-toggle value="3">3</mat-button-toggle>
+        <mat-button-toggle value="4">4</mat-button-toggle>
+        <mat-button-toggle value="5">5</mat-button-toggle>
+        <mat-button-toggle value="6">6</mat-button-toggle>
+      </mat-button-toggle-group>
+    </div>
+    <mat-divider [inset]="true"></mat-divider>
+    <div class="rating-item">
+      Die Unterstützung der Trainer war ergebnisorientiert.
+    </div>
+    <div class="rating">
+      <mat-button-toggle-group name="fontStyle" aria-label="Font Style">
+        <mat-button-toggle color="primary" value="1">1</mat-button-toggle>
+        <mat-button-toggle value="2">2</mat-button-toggle>
+        <mat-button-toggle value="3">3</mat-button-toggle>
+        <mat-button-toggle value="4">4</mat-button-toggle>
+        <mat-button-toggle value="5">5</mat-button-toggle>
+        <mat-button-toggle value="6">6</mat-button-toggle>
+      </mat-button-toggle-group>
+    </div>
+    <mat-divider [inset]="true"></mat-divider>
+    <div class="rating-item">
+      Die Konsultationen/Auswertungen der Trainer waren aufgaben- und situationsgerecht.
+    </div>
+    <div class="rating">
+      <mat-button-toggle-group name="fontStyle" aria-label="Font Style">
+        <mat-button-toggle color="primary" value="1">1</mat-button-toggle>
+        <mat-button-toggle value="2">2</mat-button-toggle>
+        <mat-button-toggle value="3">3</mat-button-toggle>
+        <mat-button-toggle value="4">4</mat-button-toggle>
+        <mat-button-toggle value="5">5</mat-button-toggle>
+        <mat-button-toggle value="6">6</mat-button-toggle>
+      </mat-button-toggle-group>
+    </div>
+    <mat-divider [inset]="true"></mat-divider>
+    <div class="rating-item">
+      Das Arbeitsklima war angenehm und leistungsfördernd beim eigenständigen Lernen.
+    </div>
+    <div class="rating">
+      <mat-button-toggle-group name="fontStyle" aria-label="Font Style">
+        <mat-button-toggle color="primary" value="1">1</mat-button-toggle>
+        <mat-button-toggle value="2">2</mat-button-toggle>
+        <mat-button-toggle value="3">3</mat-button-toggle>
+        <mat-button-toggle value="4">4</mat-button-toggle>
+        <mat-button-toggle value="5">5</mat-button-toggle>
+        <mat-button-toggle value="6">6</mat-button-toggle>
+      </mat-button-toggle-group>
+    </div>
+    <mat-divider [inset]="true"></mat-divider>
+    <div class="rating-item">
+      Die Ausstattung der Räume und die vorhandene Technik war gut.
+    </div>
+    <div class="rating">
+      <mat-button-toggle-group name="fontStyle" aria-label="Font Style">
+        <mat-button-toggle color="primary" value="1">1</mat-button-toggle>
+        <mat-button-toggle value="2">2</mat-button-toggle>
+        <mat-button-toggle value="3">3</mat-button-toggle>
+        <mat-button-toggle value="4">4</mat-button-toggle>
+        <mat-button-toggle value="5">5</mat-button-toggle>
+        <mat-button-toggle value="6">6</mat-button-toggle>
+      </mat-button-toggle-group>
+    </div>
+  </div>
+</mat-card-content>
+  <mat-card-actions class="button-row" align="end">
+      <button mat-flat-button color="accent">Zurücksetzen</button>
+    <button mat-flat-button color="primary">Bewerten</button>
+  </mat-card-actions>
+</mat-card>
